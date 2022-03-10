@@ -140,11 +140,11 @@ const CONFIG = {
       links: [
         {
           name: 'Corridor Digital',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          link: 'https://www.corridordigital.com/',
         },
         {
           name: 'Netflix',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          link: 'https://www.netflix.com/browse',
         },
         {
           name: 'Anime Twist',
