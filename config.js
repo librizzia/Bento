@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Anthony',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -31,9 +31,9 @@ const CONFIG = {
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '39.41586674488533',
+  defaultLongitude: '-74.52132034028726',
 
   // Autochange
   autoChangeTheme: true,
@@ -61,7 +61,7 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/mail/u/0/#inbox',
     },
     {
       id: '3',
@@ -83,9 +83,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'YouTube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://www.youtube.com/feed/subscriptions',
     },
   ],
 
@@ -135,24 +135,20 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'camera',
       id: '1',
       links: [
         {
-          name: 'Inspirational',
+          name: 'Corridor Digital',
           link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         },
         {
-          name: 'Classic',
+          name: 'Netflix',
           link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         },
         {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        },
-        {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Anime Twist',
+          link: 'https://twist.moe/',
         },
       ],
     },
@@ -165,16 +161,12 @@ const CONFIG = {
           link: 'https://www.linkedin.com',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Indeed',
+          link: 'https://www.indeed.com/',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
-        },
-        {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Plausible',
+          link: 'https://plausible.io/anthonylibrizzi.com',
         },
       ],
     },
