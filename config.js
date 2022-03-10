@@ -150,6 +150,10 @@ const CONFIG = {
           name: 'Anime Twist',
           link: 'https://twist.moe/',
         },
+        {
+          name: 'Odysee',
+          link: 'https://odysee.com/',
+        },
       ],
     },
     {
@@ -163,6 +167,10 @@ const CONFIG = {
         {
           name: 'Indeed',
           link: 'https://www.indeed.com/',
+        },
+        {
+          name: 'Glassdoor',
+          link: 'https://www.glassdoor.com/member/home/index.htm',
         },
         {
           name: 'Plausible',
