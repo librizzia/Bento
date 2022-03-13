@@ -26,9 +26,9 @@ const CONFIG = {
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+  weatherKey: '3ecc788ea0a085db9230602fe7d8e43e', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
@@ -147,12 +147,12 @@ const CONFIG = {
           link: 'https://www.netflix.com/browse',
         },
         {
-          name: 'Anime Twist',
-          link: 'https://twist.moe/',
+          name: 'Plex',
+          link: 'https://app.plex.tv/desktop/',
         },
         {
-          name: 'Odysee',
-          link: 'https://odysee.com/',
+          name: 'Anime Twist',
+          link: 'https://twist.moe/',
         },
       ],
     },
